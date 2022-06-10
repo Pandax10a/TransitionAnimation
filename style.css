@@ -1,0 +1,32 @@
+
+
+body {
+    display: grid;
+    grid-template-rows: 15vh 65vh 20vh;
+    row-gap: 5px;
+}
+
+header {
+    background-color: red;
+}
+
+main {
+    background-color: orange;
+}
+
+footer {
+    background-color: greenyellow;
+}
+
+header:hover {
+    transition: background-color 1s ease-in-out;
+    background-color: grey;
+}
+main:hover {
+    transition: background-color 1s ease-in-out;
+    background-color: rgb(82, 14, 240);
+}
+footer:hover {
+    transition: background-color 1s ease-in-out;
+    background-color: rgb(238, 13, 32);
+}
