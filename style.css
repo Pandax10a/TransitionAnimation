@@ -15,6 +15,7 @@ header {
 main {
     background-color: orange;
     width: 100%;
+    align-items: center;
 }
 
 footer {
@@ -42,6 +43,7 @@ main:hover {
 main:hover {
     transition: width 1s ease-in-out;
     width: 50%;
+    text-align: center;
     
     
 }
@@ -55,4 +57,33 @@ footer:hover {
     width: 50%;
     
     
+}
+div {
+    align-items: center;
+    width: 50%;
+
+}
+p {
+    font-size: 2em;
+
+    text-align: center;
+}
+
+@keyframes textanimation {
+    0% {
+        font-size: em;
+        background-color: aquamarine;
+    }
+    50% {
+        font-size: 5em;
+        background-color: blue;
+    }
+    100% {
+        font-size: 3em;
+        background-color: greenyellow;
+    }
+}
+
+#animate:hover {
+    animation: textanimation 5s ease-in-out 5 alternate;
 }
