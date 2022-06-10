@@ -8,25 +8,51 @@ body {
 
 header {
     background-color: red;
+    width: 100%;
+
 }
 
 main {
     background-color: orange;
+    width: 100%;
 }
 
 footer {
     background-color: greenyellow;
+    width: 100%;
 }
 
 header:hover {
     transition: background-color 1s ease-in-out;
     background-color: grey;
+    
+    
+}
+header:hover {
+    transition: width 1s ease-in-out;
+    width: 50%;
+    
+    
 }
 main:hover {
     transition: background-color 1s ease-in-out;
     background-color: rgb(82, 14, 240);
+    
+}
+main:hover {
+    transition: width 1s ease-in-out;
+    width: 50%;
+    
+    
 }
 footer:hover {
     transition: background-color 1s ease-in-out;
     background-color: rgb(238, 13, 32);
+   
+}
+footer:hover {
+    transition: width 1s ease-in-out;
+    width: 50%;
+    
+    
 }
